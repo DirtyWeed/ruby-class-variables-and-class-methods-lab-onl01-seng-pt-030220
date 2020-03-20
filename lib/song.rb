@@ -25,7 +25,7 @@ class Song
   def self.genre_count
   end
   def num_counter nums
-    nums.inject()
+    nums.inject(hash.new(0))
   def self.artist_count
   end
 
